@@ -68,6 +68,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ handleSearch }) => {
                   </button>
                 </li>
               ))}
+              
             {/* {history.length > 0 && (
               <li className="dropdown-item">
                 
