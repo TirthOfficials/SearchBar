@@ -1,0 +1,99 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .search-input {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  .search-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .clear-history {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .clear-history:hover {
+    background-color: #d32f2f;
+  }
+  
+  .search-history {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 1;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .search-history-item {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .search-history-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .clear-history {
+    display: block;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  
+  .clear-history:hover {
+    text-decoration: underline;
+  }
+  
+  .search-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
