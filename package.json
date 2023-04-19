@@ -2,6 +2,8 @@
   "name": "search-bar",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://TirthOfficials.github.io/SearchBar",
+  "predeploy": "npm run build", "deploy": "gh-pages -d build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -10,6 +12,7 @@
     "@types/node": "^16.18.23",
     "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
